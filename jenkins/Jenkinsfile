@@ -26,10 +26,6 @@ pipeline {
                 echo ' Job Finished '
             }
          }
-          stage('End!') {
-            steps {
-                echo ' Branch Delivered'
-            }
-         }
+        
     }
 }
